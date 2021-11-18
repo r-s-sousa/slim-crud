@@ -1,0 +1,13 @@
+{
+    "name": "rafael/slim",
+    "description": "Testando SLIM platform",
+    "type": "project",
+    "require": {
+        "slim/slim": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source"
+        }
+    }
+}
