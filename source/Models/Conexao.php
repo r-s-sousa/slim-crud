@@ -4,6 +4,7 @@ namespace Source\Models;
 
 use mysqli;
 
+
 /**
  * Classe de conexão
  */
@@ -16,5 +17,5 @@ final class Conexao
     {
         return new mysqli('desafioMovaSql', 'rafael', 'Rafinha@123', 'endereco', '3306');
     }
-    
+
 }
